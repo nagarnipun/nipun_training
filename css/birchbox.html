@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Column container */
+        .row {  
+          display: flex;
+          flex-wrap: wrap;
+        }
+        
+        /* Style the body */
+        body {
+          font-family: Arial;
+          margin: 0;
+        }
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+        }
+        @media only screen and (min-width: 600px) {
+          /* For tablet: */
+          .col-s-1 {width: 8.33%;}
+          .col-s-2 {width: 16.66%;}
+          .col-s-3 {width: 25%;}
+          .col-s-4 {width: 33.33%;}
+          .col-s-5 {width: 41.66%;}
+          .col-s-6 {width: 50%;}
+          .col-s-7 {width: 58.33%;}
+          .col-s-8 {width: 66.66%;}
+          .col-s-9 {width: 75%;}
+          .col-s-10 {width: 83.33%;}
+          .col-s-11 {width: 91.66%;}
+          .col-s-12 {width: 100%;}
+        }
+        @media only screen and (min-width: 768px) {
+          /* For desktop: */
+          .col-1 {width: 8.33%;}
+          .col-2 {width: 16.66%;}
+          .col-3 {width: 25%;}
+          .col-4 {width: 33.33%;}
+          .col-5 {width: 41.66%;}
+          .col-6 {width: 50%;}
+          .col-7 {width: 58.33%;}
+          .col-8 {width: 66.66%;}
+          .col-9 {width: 75%;}
+          .col-10 {width: 83.33%;}
+          .col-11 {width: 91.66%;}
+          .col-12 {width: 100%;}
+        }
+        
+    .header{
+    background-color:rgb(255, 227, 231);
+    text-align: center;
+}
+.header01{
+    background-color:rgb(255, 227, 231);
+    text-align:center;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.mainbar01{
+    text-align: center;
+}
+.box01{
+    text-align: center;
+    border:solid 2px  rgb(246, 246, 147);
+    padding:40px;
+    float: left;
+    background-color: white;
+    margin:35px;
+}
+.box02{
+    text-align: center;
+    border:solid 2px  rgb(246, 246, 147);
+    float: left;
+    background-color: white;
+    
+}
+.ab01{
+    margin-left:200px;
+    margin-right:100px;
+}
+.button01{
+    text-align:center;
+}
+.line{
+    text-align:center;
+    padding-left:10%;
+    padding-right:10% ;
+    border:2px;
+}
+.photo{
+    padding:40px;
+    text-align: center;
+}
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="header col-6 col-s-12">
+            <p>Free Shopping On All Order $50+</p>
+        </div>
+        <div class="header col-2 col-s-4">
+            <h3>Log in</h3>
+        </div>
+        <div class="header col-2 col-s-4">
+            <h3>Beauty</h3>
+        </div>
+        <div class="header col-2 col-s-4">
+            <h3>Grooming</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="header col-12">
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="header01 col-3 col-s-6">
+            <h2>birchbox</h2>
+        </div>
+        <div class="col-2 col-s-6 header01">
+            <h4>shop</h4>
+        </div>
+        <div class="col-2 col-s-4 header01">
+            <h4>gift</h4>
+        </div>
+        <div class="col-2 header01 col-s-4">
+            <h4>subscribe</h4>
+        </div>
+        <div class="col-3 header01 col-s-4" style="padding-top:40px;">
+            <input type="text" placeholder="Search Birchbox">
+        </div>
+    </div>
+
+    <div class="row" >
+        <div class="col-12" style="position: relative;">
+            <img src="Image/birchbox-post-click-experiences.jpg" alt="" width="100%"> 
+        </div>
+    
+         <div class="ab01 row" style="position: absolute;top:90%;">
+            <div class="col-12 box02" >
+                <h4>Choose a subscription below</h4>
+                
+                <div class="col-3 box01 col-s-4">
+                    <h2>$10/0-month</h2>
+                    <h5>ships free</h5>
+                    <h5>cancel at any time</h5>
+                </div>
+                <div class="col-3 box01 col-s-4">
+                    <h2>$30/3-month</h2>
+                    <h5>ships free</h5>
+                    <h5>cancel at any time</h5>
+                </div>
+                <div class="col-3 box01 col-s-4">
+                    <h2>$60/6-month</h2>
+                    <h5>ships free</h5>
+                    <h5>cancel at any time</h5>
+                </div>
+            </div>
+        </div>
+    </div><br><br><br><br><br><br><br><br><br>
+
+        <div class="row">
+            <div class="button01 col-12">
+                <input type="button" value="get your may box" style="background-color: rgb(255, 166, 166);padding:10px; color: aliceblue; border: solid; border-radius: 10px;font-size:20px;text-transform: uppercase;" >
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="line col-12">
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3 col-s-4" style="text-align: right;padding: 20px;">
+                <h3>Free Gift With subscription</h3>
+            </div>
+            <div class="col-6  col-s-4">
+                <p>
+                    get a free smashbox eya shadow duo in golden hour(two versatile,neutal shades with a subtle gold shimmer) when you join.terms and condition
+                    <h4>use code<span style="color:orange;"> golden</span> at chechout</h4>
+                </p>
+            </div>
+            <div class="col-3  col-s-4">
+                <img src="Image/beaty.jpg" alt="" width="80%">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 line">
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12" style="text-align: center;">
+                <h3>the monthly box</h3>
+                    <p>
+                        your subscription includes a monthly box delivert of five beauty samples all curated just for you based on your beauty profit at only $10/month.
+                    </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="photo col-4" >
+                <img src="Image/beauty04.jpg" width="100%">
+                <h4 >Febuary</h4>
+            </div>
+            <div class="photo col-4">
+                <img src="Image/beauty02.jpg" width="100%">
+                <h4>March</h4>
+            </div>
+            <div class="photo col-4">
+                <img src="Image/beauty03.jpg" width="100%">
+                <h4>April</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 line">
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-s-6" style="text-align: center;text-transform: capitalize;padding: 100px;">
+                <h3>peek inside</h3>
+                <p>
+                    each month,your personalized beauty boxx subscription will include five product samples.you'll get to try all types of product ( from haircare to skincare to makeup), and we'll include information on why they're great and how to use them.
+                </p>
+            </div>
+            <div class="row col-12 col-s-6">
+                <img src="Image/birchbox-hydration.png" width="100%" style="padding: 20px;">
+            </div>
+        
+
+        <div class="row">
+            <div class="col-12 line">
+                <hr>
+            </div>
+        </div>
+
+
+    
+</body>
+</html>

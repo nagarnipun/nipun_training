@@ -1,0 +1,96 @@
+<html>
+    <head>
+	    <h3>Form</h3>
+		<style>
+		.ab{
+		background-color:#FEDB76
+		}
+		.ac{
+		color:#6E2C00
+		}
+		.ad{
+		background-color:
+		}
+		</style>
+	</head>
+	<body class="ab ac">
+	    <fieldset>
+	    <legend>Registration form</legend>
+	    <Form action="https://www.gseb.org/" method="post" target="_blank">
+			
+			First Name:<br>
+			<input type="text" value="Nirav" Name="First Name">
+			</br>
+			Sur Name:<br>
+			<input type="text" name="sur name" placeholder="enter your name">
+			</br>
+			Religion:<br>
+			<input type="text" value="Indian" Name="Sur Name" readonly>
+			</br>
+			Religion:<br>
+			<input type="text" value="Indian" Name="Sur Name" disabled>
+			</br>
+			size:<br>
+			<input type="text" size="10" Name="Sur Name">
+			</br>
+			User Password:<br>
+			<input type="Password" Name="psw">
+			</br>
+			User Gender:<br>
+		    <input type="radio" value="male" Name="Gender" checked>Male<br>
+			<input type="radio" value="female" Name="Gender">Female<br>
+			<input type="radio" value="Other" Name="Gender">Other
+			</br>
+			User Vehicle:<br>
+			<input type="checkbox" Name="Vehicle1" value="Bike" checked>i have a Bike<br>
+			<input type="checkbox" Name="Vehicle2" value="Car">i have a car
+			</br>
+			Select the favorite colour:<br>
+			<input type="color" Name="fav color">
+			</br>
+			Birthday Date:<br>
+			<input type="date" Name="Bdays">
+			</br>
+			Birthday time:<br>
+			<input type="time" Name="Bday time">
+			</br>
+			
+			Quantity  (between 1 to 5):
+			<input type="number" Name="Quantity" min="1" max="5">
+			</br>
+			
+			Enter a date before 1980-01-01:
+			<input type="date" Name="Bdays" max="1979-12-31">
+			</br>
+			Enter a date after 2000-01-01:
+			<input type="date" Name="Bdays" min="2021-12-31">
+			<br>
+			Email:
+			<input type="email" Name="Email">
+			</br>
+			Birthday( month and year ):			
+			<input type="month" Name="BdayMonth">
+			</br>
+			Select The File:
+			<input type="file" Name="myfile" multiple>
+            </br>
+			Select the car drowpdown:
+			<select name="cars"  multiple>
+			<option value="volvo">volvo</option>
+			<option value="Saab">Saab</option>
+			<option value="Fiat">Fiat</option>
+			<option value="audi">audi</option>
+			<option value="scoda">scoda</option>
+			</Select></br>
+				Address And Comment:
+			<textarea name="name" rows="5" col="20">
+			Enter your Address
+			</textarea></br>
+			<input type="submit" name="submit" value="Submit Name">
+			<button type="Submit">Register</button>
+			<input type="reset">
+	    </Form>
+		</fieldset>
+	</body>
+    
+</html>
